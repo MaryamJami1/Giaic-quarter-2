@@ -1,9 +1,18 @@
-import React from 'react'
+import Link from "next/link";
 
-function page() {
+function Page() {
   return (
-    <div>page</div>
+    <div>
+        <h1>Home Page</h1>
+         <Link href= "/">Home</Link>
+      <br/>
+      <Link href="/about">About</Link>
+      <br/>
+   <Link href="/contact">Contact</Link>
+    
+     
+    </div>
   )
 }
 
-export default page
+export default Page
