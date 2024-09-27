@@ -1,10 +1,10 @@
-function header(){
+function Header(){
 return(
     <>
-    <h1>header</h1>
+    <h1>Header</h1>
 
     </>
     )
 }
 
-export default header
+export default Header
